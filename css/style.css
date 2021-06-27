@@ -41,6 +41,8 @@ body {
   padding-top: 31px;
 }
 
+/* Header */
+
 .header__info {
   display: flex;
   justify-content: space-between;
@@ -99,7 +101,8 @@ hr {
 }
 
 .contacts-block {
-  margin-top: 27px;
+  padding-top: 27px;
+  padding-bottom: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -113,16 +116,14 @@ hr {
 
 .contacts-block__call-order {
   font-weight: 700;
-  display: inline-block;
 }
 
 .contacts-block__whatsapp {
   font-weight: 700;
 }
 
-.contacts-block__call-order-icon {
-  background-image: url(/assets/smartphone.svg);
-  vertical-align: text-top;
+.contacts-block__item img{
+  margin-right: 10px;
 }
 
 .contacts-block__item:last-child {
@@ -130,7 +131,60 @@ hr {
 }
 
 .contacts-block__input {
-  width: 368px;
+  width: 365px;
   padding: 9px;
+  margin-right: 55px;
+  margin-left: 10px;
+}
+
+.contacts-block__form {
+  position: relative;
+}
+
+.contacts-block__input::placeholder {
   font-size: 12px;
+}
+
+.contacts-block__form img {
+  position: absolute;
+  top: 9px;
+  right: 70px;
+}
+
+.contacts-block__item span {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav__list {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.nav__item {
+  width: 20%;
+  padding: 15px 0 10px;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(180deg, #1F5486 0%, rgba(31, 84, 134, 0.887447) 14.06%, rgba(31, 84, 134, 0.77) 48.96%, rgba(31, 84, 134, 0.870918) 80.73%, #1F5486 100%);
+  box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+}
+
+.nav__item:hover {
+  background: linear-gradient(180deg, #1F5486 0%, #3B6892 27.4%, rgba(59, 104, 146, 0.84) 41.98%, rgba(59, 104, 146, 0.94) 69.06%, #1F5486 100%);
+}
+
+.nav:active {
+  background: linear-gradient(180deg, #1F5486 0%, rgba(31, 84, 134, 0.887447) 32.08%, rgba(31, 84, 134, 0.8) 48.96%, rgba(31, 84, 134, 0.870918) 64.9%, #1F5486 100%);
+}
+
+.nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: #FFF;
 }
