@@ -10,11 +10,11 @@
   <body>
     <header class="header">
       <div class="wrap">
-        <div class="header__info">
-          <div class="header__logo">
+        <div class="top-block">
+          <div class="top-block__logo">
             <img src="./assets/logo 1 3.png" alt="logo" />
           </div>
-          <h1 class="header__title">Интернет‐магазин алмазных инструментов</h1>
+          <h2 class="top-block__title">Интернет‐магазин алмазных инструментов</h1>
           <div class="shopping-cart">
             <div class="shopping-cart__img">
               <img src="./assets/shopping-cart 3.svg" alt="shopping-cart" />
@@ -26,54 +26,25 @@
           </div>
         </div>
         <hr />
-
         <div class="contacts-block">
-          <ul class="contacts-block__col">
-            <li class="contacts-block__item">
+          <div class="contacts-block__col">
               <p class="contacts-block__working-time">
                 пн.-пт. с 9.00 до 19.30
               </p>
-            </li>
-            <li class="contacts-block__item">
               <a class="contacts-block__mobile" href="#">+7 (495) 999 99 99</a>
-            </li>
-          </ul>
-          <ul class="contacts-block__col">
-            <li class="contacts-block__item">
-              <img
-                class="contacts-block__call-order-icon"
-                src="./assets/smartphone 3 3.svg"
-              /><a class="contacts-block__call-order" href="#"
-                >Заказать звонок</a
-              >
-            </li>
-            <li class="contacts-block__item">
-              <img src="./assets/whatAp.svg" /><a
-                class="contacts-block__whatsapp"
-                href="#"
-                >Написать на WhatsApp</a
-              >
-            </li>
-          </ul>
+          </div>
+          <div class="contacts-block__col">
+            <a class="contacts-block__call-order" href="#"><img class="contacts-block__call-order-icon" src="./assets/smartphone 3 3.svg"/>Заказать звонок</a>
+            <a class="contacts-block__whatsapp" href="#"><img src="./assets/whatAp.svg" />Написать на WhatsApp</a>
+          </div>
           <form class="search" action="">
-            <input
-              class="search__input"
-              placeholder="Поиск по сайту"
-              type="text"
-            />
+            <input class="search__input" placeholder="Поиск по сайту" type="text"/>
           </form>
-          <ul class="contacts-block__col">
-            <li class="contacts-block__item">
-              <img src="./assets/gps 5 1.svg" /><span>Адрес:</span
-              ><a href="#">г. Москва 2-й Донской проезд, д.10</a>
-            </li>
-            <li class="contacts-block__item">
-              <img src="./assets/envelope 2.svg" /><span>E-mail:</span
-              ><a href="#">diamond_info@mail.ru</a>
-            </li>
-          </ul>
+          <div class="contacts-block__col">
+              <a href="#"><img src="./assets/gps 5 1.svg"/><span>Адрес:</span>г. Москва 2-й Донской проезд, д.10</a>
+              <a href="#"><img src="./assets/envelope 2.svg"/><span>E-mail:</span>diamond_info@mail.ru</a>
+          </div>
         </div>
-
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -95,12 +66,284 @@
         </nav>
       </div>
     </header>
-
-    <main></main>
-
+    <main class="main">
+      <div class="wrap">
+        <section class="head">
+          <div class="head__container">
+            <h1 class="head__title">алмазные инструменты
+              оптом и в розницу</h1>
+              <p class="head__text">Всё для машиностроения, бурения геологоразведочных скважин, стройиндустрии и камнеобработки</p>
+              <div class="head__buttons">
+                <a class="btn head__btn_catalog" href="#">В каталог</a>
+                <a class="head__link" href="#">Запросить прайс-лист</a>
+              </div>
+          </div>
+        </section>
+        <section class="products-categories">
+          <ul class="products-categories__container container">
+            <li class="products-category__item" id="drilling-tool">
+              <h3 class="products-category__title">Буровой<br> 
+                инструмент</h3>
+              <a class="products-category__link" href="#"><img src="./assets/Vector.svg" alt=""> В категорию</a>
+            </li>
+            <li class="products-category__item" id="grinding-tool">
+              <h3 class="products-category__title">Шлифовальный
+                инструмент</h3>
+              <a class="products-category__link" href="#"><img src="./assets/Vector.svg" alt="">В категорию</a>
+            </li>
+            <li class="products-category__item" id="mech-ing-tool">
+              <h3 class="products-category__title">Инструмент<br>
+                для машиностроения</h3>
+              <a class="products-category__link" href="#"><img src="./assets/Vector.svg" alt="">В категорию</a>
+            </li>
+            <li class="products-category__item" id="building-tool">
+              <h3 class="products-category__title">Строительный 
+                инструмент</h3>
+              <a class="products-category__link" href="#"><img src="./assets/Vector.svg" alt="">В категорию</a>
+            </li>
+            <li class="products-category__item" id="stone-proc-tool">
+              <h3 class="products-category__title">Инструмент<br>
+                для камнеобработки</h3>
+              <a class="products-category__link" href="#"><img src="./assets/Vector.svg" alt="">В категорию</a>
+            </li>
+            <li class="products-category__item" id="synt-diamonds-powders">
+              <h3 class="products-category__title">Синтетические алмазы 
+                и порошки</h3>
+              <a class="products-category__link" href="#"><img src="./assets/Vector.svg" alt="">В категорию</a>
+            </li>
+          </ul>
+        </section>
+        <section class="advantages">
+          <h2 class="section-title">Наши конкурентные преимущества</h2>
+          <div class="advantages__container container">
+              <div class="advantages__item">
+                <img class="advantages__img" src="./assets/award 1.svg" alt="award">
+                <h3 class="advantages__title">Европейское качество<br> 
+                  по Российским ценам</h3>
+                <p class="advantages__text">Продукция проходит проверку по европейским стандартам. А мы являемся её официальными диллерами, поэтому наша цена очень выгодна. </p>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__img" src="./assets/location 1.svg" alt="award">
+                <h3 class="advantages__title">Доставка в любую<br> 
+                  точку мира</h3>
+                <p class="advantages__text">За многолетний опыт работы мы превосходно наладили логистику и знаем как доставить продукцию в любую точку мира максимально быстро. </p>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__img" src="./assets/technical-drawing 1.svg" alt="award">
+                <h3 class="advantages__title">Изготовление продукта<br>
+                  на заказ</h3>
+                  <p class="advantages__text">Тесная связь и многолетнее сотрудничество 
+                    с производителем позволяет нашим клиентам заказать у нас продукцию по индивидуальным чертежам.</p>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__img" src="./assets/contract 1.svg" alt="award">
+                  <h3 class="advantages__title">Индивидуальный подход<br>
+                    к каждому клиенту</h3>
+                  <p class="advantages__text">Для нас важен каждый клиент, мы нацелены 
+                    на долговременное сотрудничество и готовы предлагать индивидуальные акции и скидки.</p>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__img" src="./assets/credit-card 1.svg" alt="award">
+                <h3 class="advantages__title">Удобные способы<br> оплаты</h3>
+                <p class="advantages__text">Мы стараемся понять каждого клиента и предложить индивидуальный график оплаты, а также, возможность её совершить разными способами. </p>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__img" src="./assets/shield 1.svg" alt="award">
+                <h3 class="advantages__title">Гарантия<br> 
+                  от производителя</h3>
+                <p class="advantages__text">Проверенный производитель за многолетнее сотрудничество завоевал доверие и предоставляет личную гарантию для своих покупателей. </p>
+              </div>
+          </div>
+        </section>
+        <section class="about">
+            <h2 class="about__title">Продажа алмазных инструментов европейского качества с доставкой по всему миру</h2>
+            <p class="about__text">Терекалмаз — это современное высокотехнологичное многопрофильное предприятие, сочетающее многолетний опыт в проектировании и производстве алмазного инструмента
+              с возможностями современных технологий и оборудования лучших мировых производителей. Мы оснащаем каждый тип инструмента оптимальным набором природных...</p>
+              <a class="btn about__btn" href="">О компании</a>
+        </section>
+        <section class="questions">
+          <h2 class="question__title">Часто задаваемые вопросы</h2>
+          <div class="questions__container container">
+            <div class="questions__item">
+              <a class="questions__text" href="#">Можно ли сделать заказ без предоплаты?</a>
+            </div>
+            <div class="questions__item">
+              <a class="questions__text" href="#">Как происходит доставка?</a>
+            </div>
+            <div class="questions__item">
+              <a class="questions__text" href="#">Не могу найти нужный инструмент или параметры. Что делать?</a>
+            </div>
+            <div class="questions__item">
+              <a class="questions__text" href="#">Каков минимальный объем для заказа?</a>
+            </div>
+            <div class="questions__item">
+              <a class="questions__text" href="#">Возможен ли возврат?</a>
+            </div>
+            <div class="questions__item">
+              <a class="questions__text" href="#">Нужной мне продукции нет в наличии?</a>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <h2 class="reviews__title section-title">Отзывы наших клиентов</h2>
+          <div class="reviews__container container">
+            <div class="reviews__item">
+              <div class="reviews__author">
+                <img class="reviews__img" src="/assets/person.png" alt="">
+                <div class="reviews__description">
+                  <h3 class="reviews__name">Демидов Валерий </h3>
+                  <h4 class="reviews__date">10.11.2019</h4>
+                </div>
+              </div>
+              <p class="reviews__text">С удовольствием оставлю отзыв о работе магазина ТерекАлмаз. Приятно работать с компанией, в которой всё налажено: оформление заказа, доставка, поддержка. Регулярно делаю здесь заказы. Спасибо! </p>
+            </div>
+            <div class="reviews__item">
+              <div class="reviews__author">
+                <img class="reviews__img" src="/assets/person.png" alt="">
+                <div class="reviews__description">
+                  <h3 class="reviews__name">Ким Сергей </h3>
+                  <h4 class="reviews__date">16.05.2020</h4>
+                </div>
+              </div>
+              <p class="reviews__text">Всегда заказываем инструменты в данном магазине и по опыту могу сказать, что качество вызывает доверие. К тому же ассортимент закрывает любую потребность. </p>
+            </div>
+            <div class="reviews__item">
+              <div class="reviews__author">
+                <img class="reviews__img" src="/assets/person.png" alt="">
+                <div class="reviews__description">
+                  <h3 class="reviews__name">Фомин Аркадий</h3>
+                  <h4 class="reviews__date">20.06.2020</h4>
+                </div>
+              </div>
+              <p class="reviews__text">Спустя некоторое время поисков качественных алмазных инструментов, нашел магазин Терек алмаз, который поставляет продукцию напрямую с производства. Доволен продукцией и работой магазина. Являюсь постоянным покупателем.  </p>
+            </div>
+          </div>
+          <a class="reviews__link" href="">Все отзывы <img src="/assets/next 7.svg" alt=""></a>
+        </section>
+        <section class="partners">
+          <h2 class="partners__title section-title">Партнеры</h2>
+          <div class="partners__container container">
+            <div class="partners__item">
+              <img class="partners__img" src="/assets/belarus-partner.png" alt="">
+            </div>
+            <div class="partners__item">
+              <img class="partners__img" src="/assets/kamaz-partner.png" alt="">
+            </div>
+            <div class="partners__item">
+              <img class="partners__img" src="/assets/odk-partner.png" alt="">
+            </div>
+            <div class="partners__item">
+              <img class="partners__img" src="/assets/sosn-partner.png" alt="">
+            </div>
+            <div class="partners__item">
+              <img class="partners__img" src="/assets/rosgelogy-partner.png" alt="">
+            </div>
+            <div class="partners__item">
+              <img class="partners__img" src="/assets/lada-partner.png" alt="">
+            </div>
+            <div class="partners__item">
+              <img class="partners__img" src="/assets/maz-partner.png" alt="">
+            </div>
+            <div class="partners__item">
+              <img class="partners__img" src="/assets/kraz-partner.png" alt="">
+            </div>
+          </div>
+        </section>
+        <section class="certificates">
+          <h2 class="section-title certificates__title">Сертификаты и награды</h2>
+          <div class="certificates__container container">
+            <div class="certificates__item">
+              <img class="certificates__img" src="/assets/SERTIFIKAT-ISO-9001-2018-1-141x200.jpg.pagespeed.ce 2.jpg" alt="">
+              <p class="certificates__text">Соответствия системы менеджмента требованиям стандарта ISO 9001:2008</p>
+            </div>
+            <div class="certificates__item">
+              <img class="certificates__img" src="/assets/20120004 2.jpg" alt="">
+              <p class="certificates__text">Присоединение к Антикоррупционной хартии российского бизнеса</p>
+            </div>
+            <div class="certificates__item">
+              <img class="certificates__img" src="/assets/20120001 2.jpg" alt="">
+              <p class="certificates__text">100 лучших товаров России. Коронки разбурочные алмазные типа КР</p>
+            </div>
+            <div class="certificates__item">
+              <img class="certificates__img" src="/assets/2012 6.jpg" alt="">
+              <p class="certificates__text">100 лучших товаров России. Ролики алмазные специальные</p>
+            </div>
+          </div>
+          <a class="certificates__link" href="#">Все сертификаты<img src="/assets/Vector.svg"></a>
+        </section>
+        <section class="feedback">
+          <h2 class="feedback__title">У вас есть вопрос, но ответ не нашли на сайте? </h2>  
+          <p class="feedback__text">Оставьте заявку и мы свяжемся с вами в ближайшее время. </p>
+          <form class="feedback__form" action="#">
+            <div class="form-container">
+              <div class="form-contanier__user-info">
+                <input class="form-contanier__user-name" type="text" placeholder="ФИО">
+                <input class="form-contanier__phone" type="text" placeholder="Номер телефона">
+                <input class="form-contanier__mail" type="text" placeholder="Электроная почта">
+              </div>
+              <textarea  class="form-contanier__comment" placeholder="Свой вопрос вы можете написать здесь или оформить в виде документа и прикрепить его по ссылке ниже."></textarea>
+            </div>
+            <div class="form-container__block">
+              <input class="btn" type="submit" value="Отправить">
+              <input class="form-container__uploadbtn" type=file name=file id="uploadbtn">
+              <label  for="uploadbtn" class="uploadButton">Прикрепить документ</label>
+              <div class="form-container__prevention-wrap">
+                <img class="form-container__prevention-img" src="/assets/lock.svg" alt="">
+                <span class="form-container__prevention-text">Мы не рассылаем спам и не передаем ваши данные третьим лицам</span>
+              </div>
+            </div>
+            <div class="form-container__block">
+              <input class="form-container__checkbox" type="checkbox" id="data-agree">
+              <label for="data-agree">Согласие на обработку персональных данных</label>
+            </div>
+          </form>
+        </section>
+        <section class="articles"> 
+          <h2 class="section-title">Статьи</h2>
+          <div class="articles__container container">
+            <div class="articles__item">
+              <div class="articles__content"></div>
+              <h3 class="articles__title">Название статьи</h3>
+            </div>
+            <div class="articles__item">
+              <div class="articles__content"></div>
+              <h3 class="articles__title">Название статьи</h3>
+            </div>
+            <div class="articles__item">
+              <div class="articles__content"></div>
+              <h3 class="articles__title">Название статьи</h3>
+            </div>
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="contacts__container container">
+            <div class="contacts-block__wrap">
+              <h2 class="section-title contacts__title">Контакты</h2>
+              <div class="contacts-block">
+                <div class="contacts-block__col">
+                    <p class="contacts-block__working-time">
+                      пн.-пт. с 9.00 до 19.30
+                    </p>
+                    <a class="contacts-block__mobile" href="#">+7 (495) 999 99 99</a>
+                </div>
+                <div class="contacts-block__col">
+                  <a class="contacts-block__call-order" href="#"><img class="contacts-block__call-order-icon" src="./assets/smartphone 3 3.svg"/>Заказать звонок</a>
+                  <a class="contacts-block__whatsapp" href="#"><img src="./assets/whatAp.svg" />Написать на WhatsApp</a>
+                </div>
+                <div class="contacts-block__col">
+                    <a href="#"><img src="./assets/gps 5 1.svg"/><span>Адрес:</span>г. Москва 2-й Донской проезд, д.10</a>
+                    <a href="#"><img src="./assets/envelope 2.svg"/><span>E-mail:</span>diamond_info@mail.ru</a>
+                </div>
+              </div>
+            </div>
+            <div class="map"></div>
+          </div>
+        </section>
+      </div>
+    </main>
     <footer class="footer">
       <div class="wrap">
-        <div class="footer__container">
+        <div class="footer__container container">
           <div class="footer__block">
             <div class="footer__logo">
               <img src="./assets/Group 13.svg" alt="" />
@@ -132,7 +375,7 @@
             </form>
           </div>
         </div>
-        <div class="footer__container">
+        <div class="footer__container container">
           <h4 class="footer__trademark">© Терекалмаз 2020</h4>
           <div class="shopping-cart">
             <div class="shopping-cart__img shopping-cart__img_white">
