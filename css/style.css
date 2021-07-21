@@ -307,7 +307,7 @@ hr {
   height: 38.6rem;
   padding-top: 8rem;
   padding-left: 8rem;
-  background: url(./assets/main\ bg.jpg) no-repeat;
+  background: url(../assets/main\ bg.jpg) no-repeat;
   background-position: right;
   background-size: cover;
 }
@@ -364,31 +364,31 @@ hr {
 }
 
 #drilling-tool {
-  background: url(./assets/drilling-tool.jpg) center no-repeat;
+  background: url(../assets/drilling-tool.jpg) center no-repeat;
 }
 
 #grinding-tool {
-  background: url(./assets/grinding-tool.jpg) center no-repeat;
+  background: url(../assets/grinding-tool.jpg) center no-repeat;
 }
 
 #grinding-tool {
-  background: url(./assets/grinding-tool.jpg) center no-repeat;
+  background: url(../assets/grinding-tool.jpg) center no-repeat;
 }
 
 #mech-ing-tool {
-  background: url(./assets/mech-ing-tool.jpg) center no-repeat;
+  background: url(../assets/mech-ing-tool.jpg) center no-repeat;
 }
 
 #building-tool {
-  background: url(./assets/building-tool.jpg) center no-repeat;
+  background: url(../assets/building-tool.jpg) center no-repeat;
 }
 
 #stone-proc-tool {
-  background: url(./assets/stone-proc-tool.jpg) center no-repeat;
+  background: url(../assets/stone-proc-tool.jpg) center no-repeat;
 }
 
 #synt-diamonds-powders {
-  background: url(./assets/synt-diamonds-powders.jpg) no-repeat;
+  background: url(../assets/synt-diamonds-powders.jpg) no-repeat;
 }
 
 .products-category__title {
@@ -443,7 +443,7 @@ hr {
   margin-top: 4.4rem;
   padding-top: 4.4rem;
   padding-left: 8.4rem;
-  background: url(./assets/Mask\ Group.jpg) no-repeat;
+  background: url(../assets/Mask\ Group.jpg) no-repeat;
   background-position: right;
 }
 
@@ -497,7 +497,7 @@ hr {
   margin: 1.5rem 0;
   display: inline-block;
   width: 100%;
-  background: url(./assets/arrow-down.svg) no-repeat 100%;
+  background: url(../assets/arrow-down.svg) no-repeat 100%;
   font-size: 1.4rem;
   color: #595959;
 }
@@ -639,7 +639,7 @@ hr {
 .feedback {
   padding: 5rem 8rem;
   margin-top: 8.6rem;
-  background: url(./assets/feed.jpg) no-repeat;
+  background: url(../assets/feed.jpg) no-repeat;
   background-size: cover;
 }
 
